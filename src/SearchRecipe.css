@@ -8,13 +8,40 @@
    
   
 }
+.search__cards{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.search__card {
+  padding: 10px;
+   
+}
+
+.search__card img{
+    width:100px;
+   
+}
 
 .search__input{
    padding: 20px; 
    width: 70vw;
+   position: relative;
+}
+.search__valueCard{
+    display: flex;
+    position: absolute;
+    bottom: 6px;
+    
    
 }
-
+.search__valueCard button{
+    height: fit-content;
+    background-color: mediumturquoise;
+    border: none;
+    margin:3px;
+    font-size: 18px;
+}
 
 .search__input input{
     padding: 20px; 
@@ -23,6 +50,16 @@
  }
 
 .search__allRecipes{
-  
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search__recipe{
+    width: 350px;
+    padding: 5px;
+}
+.search__recipe img{
+    width: 350px;
+    object-fit: cover;
 }
