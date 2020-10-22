@@ -1,0 +1,28 @@
+.search{
+    display: flex;
+}
+
+.search__page{
+    display: flex;
+    flex-direction: column;
+   
+  
+}
+
+.search__input{
+   padding: 20px; 
+   width: 70vw;
+   
+}
+
+
+.search__input input{
+    padding: 20px; 
+    width: 80%;
+    margin: 0 0 auto;
+ }
+
+.search__allRecipes{
+  
+  
+}
